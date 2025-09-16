@@ -1,0 +1,74 @@
+/* Additional custom styles for the Educational Tutor Agent */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    margin: 0;
+    padding: 0;
+}
+
+.gradio-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+h1, h2, h3 {
+    color: #333;
+    text-align: center;
+}
+
+.gr-textbox textarea {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.gr-button {
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.gr-markdown {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+}
+
+.gr-markdown h2 {
+    color: #FE6B8B;
+    border-bottom: 2px solid #FE6B8B;
+    padding-bottom: 5px;
+}
+
+.gr-markdown ul, .gr-markdown ol {
+    padding-left: 20px;
+}
+
+.gr-markdown li {
+    margin-bottom: 10px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .gradio-container {
+        padding: 10px;
+    }
+
+    .gr-row {
+        flex-direction: column;
+    }
+}
+
+/* Animation for loading states */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.gr-markdown {
+    animation: fadeIn 0.5s ease-in;
+}
