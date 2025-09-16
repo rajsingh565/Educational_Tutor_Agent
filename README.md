@@ -1,5 +1,6 @@
-🎓 Educational Tutor Agent
-An intelligent multi-agent system built with CrewAI that helps users learn by taking a topic as input, crawling educational resources, summarizing content, and generating quizzes or explanations.
+## 🎓 Educational Tutor Agent
+     An intelligent multi-agent system built with CrewAI that helps users learn by taking a topic as input, 
+     crawling educational resources, summarizing content, and generating quizzes or explanations.
 
 ✨ Features
 🤖 Multi-agent architecture using CrewAI with specialized agents:
@@ -77,3 +78,4 @@ http://127.0.0.1:7860
 🔐 If behind a proxy or firewall, configure your environment accordingly.
 🤝 Contributing
 Contributions are welcome! Feel free to open issues or submit pull requests to improve the project.
+
